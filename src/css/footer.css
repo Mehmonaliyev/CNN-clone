@@ -17,3 +17,8 @@
 .bg-dark2{
     background-color: black;
 }
+@media screen and (max-width:500px) {
+    .bg-dark2{
+        text-align: center;
+    }
+}
