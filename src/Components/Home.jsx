@@ -191,26 +191,26 @@ function Home() {
                         {/* second-img */}
                     </div>
                     <div className="col-md-12 col-lg-3 ">
-                    <Reklama/>
+                        <Reklama />
                     </div>
                 </div>
                 {/* next row finish */}
 
                 {/* reklama */}
- 
- <div className='text-center'>
-<img src={reklama1} alt="" className='img-fluid w-100' />
- </div>
-                     
+
+                <div className='text-center'>
+                    <img src={reklama1} alt="" className='img-fluid w-100' />
+                </div>
+
                 {/* reklama finish */}
 
 
 
 
             </div>
-        
 
-            <Footer/>
+
+            <Footer />
         </>
     )
 }

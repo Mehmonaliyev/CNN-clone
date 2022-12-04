@@ -5,3 +5,15 @@
     background-position-x: right;
     background-size: 100px;
 }
+.lh-1 a{
+    text-decoration: none;
+}
+.lh-1{
+    line-height: -1 !important;
+}
+.lh-1 a:hover{
+    text-decoration: underline;
+}
+.bg-dark2{
+    background-color: black;
+}
