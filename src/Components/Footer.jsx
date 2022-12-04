@@ -9,7 +9,7 @@ function Footer() {
             </div>
             <div className="row container mx-auto lh-1">
                 {/* 1 */}
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>World</h5>
@@ -47,7 +47,7 @@ function Footer() {
                     </p>
                 </div>
                 {/* 2 */}
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>US Politics
@@ -74,7 +74,7 @@ function Footer() {
 
                 </div>
                 {/* 3 */}
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>Business
@@ -114,7 +114,7 @@ function Footer() {
 
                 </div>
                 {/* 4 */}
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>
@@ -160,7 +160,7 @@ function Footer() {
 
                 </div>
                 {/* 5 */}
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>
@@ -188,7 +188,7 @@ function Footer() {
 
                 </div>
                 {/* 6 */}
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>
@@ -238,7 +238,7 @@ function Footer() {
                     </p>
 
                 </div>
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>
@@ -290,7 +290,7 @@ function Footer() {
                 </div>
 
                 {/* 3 */}
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>Videos
@@ -330,7 +330,7 @@ function Footer() {
 
                 </div>
                 {/* 4 */}
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>
@@ -376,7 +376,7 @@ function Footer() {
 
                 </div>
                  {/* 6 */}
-                 <div className="col-lg-2 lh-1">
+                 <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>
@@ -426,7 +426,7 @@ function Footer() {
                     </p>
 
                 </div>
-                <div className="col-lg-2 lh-1">
+                <div className="col-lg-2 col-md-4  lh-1">
                     <p>
                         <Link className='text-white'>
                             <h5 className='pb-3'>
