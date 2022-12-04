@@ -53,7 +53,7 @@ function Navbar() {
                 </NavLink>
               </li>
             </ul>
-            <form className="d-flex" role="search">
+            <div className="d-flex" role="search">
               <div className='nav-item mx-1'>
                 <div className="nav-link mt-2 ">
                 Audio
@@ -64,7 +64,7 @@ function Navbar() {
               <button className='btn btn-outline-light btn-none mx-1'> <FaSearch /></button>
               <button className='btn btn-outline-light mx-1 '> Log In</button>
 
-            </form>
+            </div>
           </div>
         </div>
       </nav>

@@ -34,7 +34,7 @@ function Home() {
                         <h2 className='text-center lh-1 h1'>
                             Mar-a-Lago docs review halted in major defeat for Trump
                         </h2>
-                        <img src={hom1} alt="" Name='img-fluid w-100' />
+                        <img src={hom1} alt="" className='img-fluid w-100' />
                         <div className="p-border-top">
                             <p className='lh-1 py-3'>
                                 <b >
