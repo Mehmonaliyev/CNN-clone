@@ -11,6 +11,7 @@ import reklama1 from '../img/reklama1.png'
 import { FcStart } from "react-icons/fc";
 import Footer from './Footer';
 import Reklama from './Reklama/Reklama';
+import WorldBody from './World/WorldBody';
 
 function Home() {
     return (
@@ -209,7 +210,7 @@ function Home() {
 
             </div>
 
-
+<WorldBody/>
             <Footer />
         </>
     )

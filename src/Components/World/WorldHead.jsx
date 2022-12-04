@@ -1,21 +1,18 @@
 import React from 'react'
-import india from "../../img/india.jpg";
-import Footer from '../Footer';
+import world1 from "../../img/world1.jpg";
 import Reklama from '../Reklama/Reklama';
-import WorldBody from '../World/WorldBody';
 
-function India() {
+function WorldHead() {
     return (
-        <>
         <div className="container-f">
-            <h1>India</h1>
+            <h1>World</h1>
 
             <div className="row">
                 <div className="col-md-8">
                     <div className="img-big">
-                        <img src={india} alt="India-img" className='img-fluid ' />
+                        <img src={world1} alt="world-img" className='img-fluid ' />
                         <div className="img-big-text ">
-                            <p>India signals it could soften its zero-Covid policy, but there are more questions than answers</p>
+                            <p>China signals it could soften its zero-Covid policy, but there are more questions than answers</p>
                         </div>
                     </div>
 
@@ -24,23 +21,19 @@ function India() {
                             Spain boosts security as prime minister targeted amid series of letter bombs
                         </p>
                         <p>
-                            India on track for record $100 billion in remittances, says India Bank
+                            India on track for record $100 billion in remittances, says World Bank
                         </p>
                         <p>
-                            What's happening in India after zero-Covid protests?
+                            What's happening in China after zero-Covid protests?
                         </p>
                     </div>
-
                 </div>
                 <div className="col-md-4">
-                  <Reklama/>
+                    <Reklama/>
                 </div>
             </div>
         </div>
-        <WorldBody/>
-        <Footer/>
-        </>
     )
 }
 
-export default India
+export default WorldHead

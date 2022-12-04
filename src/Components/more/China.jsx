@@ -2,6 +2,7 @@ import React from 'react'
 import china from "../../img/china.jpg";
 import Footer from '../Footer';
 import Reklama from '../Reklama/Reklama';
+import WorldBody from '../World/WorldBody';
 
 function China() {
     return (
@@ -36,6 +37,7 @@ function China() {
                     </div>
                 </div>
             </div>
+            <WorldBody/>
             <Footer />
         </>
     )

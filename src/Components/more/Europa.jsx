@@ -2,6 +2,7 @@ import React from 'react'
 import europa from "../../img/europa.jpg";
 import Footer from '../Footer';
 import Reklama from '../Reklama/Reklama';
+import WorldBody from '../World/WorldBody';
 
 function Europa() {
     return (
@@ -36,6 +37,7 @@ function Europa() {
                 </div>
             </div>
         </div>
+        <WorldBody/>
         <Footer/>
         </>
     )

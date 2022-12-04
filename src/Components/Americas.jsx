@@ -2,6 +2,7 @@ import React from 'react'
 import americas1 from "../img/america.jpg";
 import Footer from './Footer';
 import Reklama from './Reklama/Reklama';
+import WorldBody from './World/WorldBody';
 
 function Americas() {
     return (
@@ -36,8 +37,8 @@ function Americas() {
                  <Reklama/>
                 </div>
             </div>
-            
         </div>
+        <WorldBody/>
         <Footer/>
         </>
     )
