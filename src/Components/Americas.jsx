@@ -1,5 +1,6 @@
 import React from 'react'
 import americas1 from "../img/america.jpg";
+import Reklama from './Reklama/Reklama';
 
 function Americas() {
     return (
@@ -29,7 +30,7 @@ function Americas() {
 
                 </div>
                 <div className="col-md-4">
-                    <img src="https://tpc.googlesyndication.com/simgad/11396136500387258322" alt="" />
+                 <Reklama/>
                 </div>
             </div>
         </div>

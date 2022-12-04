@@ -1,5 +1,6 @@
 import React from 'react'
 import australia1 from "../img/world1.jpg";
+import Reklama from './Reklama/Reklama';
 
 function Australia() {
     return (
@@ -29,7 +30,7 @@ function Australia() {
 
                 </div>
                 <div className="col-md-4">
-                    <img src="https://cdn.cnn.com/cnnnext/dam/assets/220704175328-1-highland-park-shooting-gallery-070422-large-tease.jpg" alt="" />
+                  <Reklama/>
                 </div>
             </div>
         </div>

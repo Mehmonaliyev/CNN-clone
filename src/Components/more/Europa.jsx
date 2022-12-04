@@ -1,5 +1,6 @@
 import React from 'react'
 import europa from "../../img/europa.jpg";
+import Reklama from '../Reklama/Reklama';
 
 function Europa() {
     return (
@@ -29,7 +30,7 @@ function Europa() {
 
                 </div>
                 <div className="col-md-4">
-                    <img src="https://tpc.googlesyndication.com/simgad/18103840598700317066" alt="" />
+                    <Reklama/>
                 </div>
             </div>
         </div>

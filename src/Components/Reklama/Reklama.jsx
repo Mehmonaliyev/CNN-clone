@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 function Reklama() {
    const [meals, setMeals] = useState({})
@@ -11,7 +12,7 @@ function Reklama() {
             )
     }, [])
     return (
-        <>
+        <a  target='_blank' href={meals.strYoutube}>
         <div className="card w-100">
             <div className='bg-light'>
               <h4>REKLAMA</h4>
@@ -21,7 +22,7 @@ function Reklama() {
         </div>
         
         
-        </>
+        </a>
     )
 }
 
