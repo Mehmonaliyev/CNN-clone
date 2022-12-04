@@ -54,8 +54,16 @@ function Navbar() {
               </li>
             </ul>
             <form className="d-flex" role="search">
+              <div className='nav-item mx-1'>
+                <div className="nav-link mt-2 ">
+                Audio
+
+                </div>
+              </div>
               {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> */}
-              <button className='btn btn-outline-light'> <FaSearch /></button>
+              <button className='btn btn-outline-light btn-none mx-1'> <FaSearch /></button>
+              <button className='btn btn-outline-light mx-1 '> Log In</button>
+
             </form>
           </div>
         </div>

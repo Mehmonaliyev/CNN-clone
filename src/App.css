@@ -45,7 +45,7 @@ line-height: 1.13333;
     cursor: pointer;
     font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
 }
-.btn-outline-light{
+.btn-none{
     outline: none;
     border: none;
 }

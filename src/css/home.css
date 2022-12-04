@@ -44,3 +44,13 @@
 .home2 p{
     font-size: 13px;
 }
+.icon-red{
+    margin-top: -5px;
+    border-radius: 50% !important;
+    background-color: red !important;
+}
+@media screen and (max-width:992px) {
+    .reklama{
+        display: none !important;
+    }
+}

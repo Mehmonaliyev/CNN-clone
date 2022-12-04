@@ -1,0 +1,7 @@
+.bg-search{
+    background-image: url('../img/search.png') !important;
+    background-repeat: no-repeat !important;
+    /* background-attachment: fixed; */
+    background-position-x: right;
+    background-size: 100px;
+}
