@@ -11,6 +11,7 @@ function Reklama() {
             setMeals(json.meals[0])
             )
     }, [])
+    console.log(meals);
     return (
         <a  target='_blank' href={meals.strYoutube}>
         <div className="card w-100">

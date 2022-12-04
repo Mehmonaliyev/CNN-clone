@@ -1,9 +1,11 @@
 import React from 'react'
 import europa from "../../img/europa.jpg";
+import Footer from '../Footer';
 import Reklama from '../Reklama/Reklama';
 
 function Europa() {
     return (
+        <>
         <div className="container-f">
             <h1>Europa</h1>
 
@@ -34,6 +36,8 @@ function Europa() {
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 

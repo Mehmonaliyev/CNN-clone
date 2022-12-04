@@ -1,8 +1,10 @@
 import React from 'react'
 import world1 from "../img/world1.jpg";
+import Footer from './Footer';
 
 function World() {
     return (
+        <>
         <div className="container-f">
             <h1>World</h1>
 
@@ -33,6 +35,8 @@ function World() {
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 

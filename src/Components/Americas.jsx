@@ -1,9 +1,12 @@
 import React from 'react'
 import americas1 from "../img/america.jpg";
+import Footer from './Footer';
 import Reklama from './Reklama/Reklama';
 
 function Americas() {
     return (
+        <>
+        
         <div className="container-f">
             <h1>Americas</h1>
 
@@ -33,7 +36,10 @@ function Americas() {
                  <Reklama/>
                 </div>
             </div>
+            
         </div>
+        <Footer/>
+        </>
     )
 }
 
