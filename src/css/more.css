@@ -1,0 +1,15 @@
+.hover_more{
+    position: relative;
+}
+.hover_none{
+position: absolute;
+display: none;
+z-index: 50;
+}
+.hover_more:hover .hover_none{
+    display: block;
+}
+.hover_none li{
+    border-bottom: 1px solid white;
+    padding: 2px 15px;
+}

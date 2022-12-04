@@ -1,0 +1,46 @@
+.menucha{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px !important;
+    overflow-x: auto;
+    margin: auto;
+   
+}
+.menucha p b{
+    color:  red;
+}
+.menucha p{
+    margin: 0 2px;
+    font-weight: 500;
+    position: relative;
+}
+.menu-home{
+    margin: 13px 0;
+    width: 100% !important;
+    /* overflow: hidden !important; */
+    overflow-x: auto;
+}
+.menucha p::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 60%;
+    right: -10px;
+    bottom: 3px;
+    background-color: #ccc;
+
+}
+.b_none::after{
+    content: "";
+    position: absolute;
+    width: 0 !important;
+    height: 0 !important;
+    bottom: 0;
+}
+.home-h1 h2:hover{
+ cursor: pointer;
+ color:rgb(154, 50, 50);
+}
+.home2 p{
+    font-size: 13px;
+}

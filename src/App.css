@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.nav-link{
+    color: white !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item{
+    color: white !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-item a{
+    color: white !important;
+}
+.container-f h1{
+    margin: 15px 0;
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    color: #1a1a1a;
+    font-size: 52px;
+}
+.container-f{
+    width: 75%;
+    margin: auto;
+}
+.img-big {
+    position: relative;
+    cursor: pointer;
   }
+.img-big img{
+  height: 100% !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img-big-text{
+position: absolute;
+bottom: 0;
+background-color: rgba(255, 255, 255, 0.755);
+width: 100%;
+padding: 5px;
+font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+font-weight: normal !important;
+height: 79px;
+font-size: 2rem;
+line-height: 1.13333;
 }
-
-.App-link {
-  color: #61dafb;
+.p-border-top p{
+    border-top: 1px solid #ccc;
+    padding: 5px 0;
+    font-size: 19px;
+    margin: 0;
+    cursor: pointer;
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-outline-light{
+    outline: none;
+    border: none;
+}
+ p:hover{
+color: rgb(154, 50, 50);
+}
+img:hover{
+    cursor: pointer;
 }

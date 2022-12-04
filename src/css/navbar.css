@@ -1,0 +1,23 @@
+.logo1 img{
+    position: absolute;
+    height: 100%;
+}
+.logo1{
+    position: relative;
+    width: 45px;
+}
+.navbar{
+    padding: 0 !important;
+}
+@media screen and (max-width:992px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+.navbar-toggler-icon, .navbar-toggler{
+    background-color: white;
+}
+.active{
+    font-weight: bold;
+    color: antiquewhite;
+}
